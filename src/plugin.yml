@@ -1,0 +1,16 @@
+name: CoinSystem
+author: Julian
+version: 1.0
+main: me.main.Main
+
+commands:
+  coins:
+    description: CoinSystem für den Server
+    usage: /coins
+    aliases: [money]
+  pay:
+    description: Schenke anderen Spielern Geld
+    usage: /pay <Spieler> <Coins>
+  shop:
+    description: Erhalte ein Schwert
+    usage: /shop
